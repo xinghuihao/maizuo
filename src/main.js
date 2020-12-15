@@ -3,6 +3,10 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+
+import mintUi from 'mint-ui';
+import 'mint-ui/lib/style.css'
+Vue.use(mintUi);
 Vue.config.productionTip = false
 
 new Vue({
